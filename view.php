@@ -5,6 +5,6 @@
 </head>
 <body>
 <h1>practica.com</h1>
- seprando logica de <strong><?= $lenguaje ?></strong>"
+ seprando logica de <strong><?= $lenguaje ?></strong>
 </body>
 </html>
