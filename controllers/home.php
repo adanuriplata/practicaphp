@@ -1,7 +1,4 @@
 <?php 
-	
-	require 'config.php';
-	require 'helpers.php';
 
 
 	$lenguaje = "Programacion";
@@ -15,4 +12,4 @@
 
 	// formareducida de mandar el array con  la funcion compact para reducir 
 	view('home', compact('lenguaje', 'titulo'));
-	view('home', compact('casa', 'numero')); 
+	//view('home', compact('casa', 'numero')); 
