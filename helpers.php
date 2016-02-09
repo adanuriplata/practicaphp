@@ -4,5 +4,5 @@
 		
 		extract($vars); //funcion que extrae el array
 
-		require "$template.php";
+		require "views/$template.tpl.php";
 	}
