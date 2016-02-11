@@ -8,12 +8,19 @@
 	require 'config.php';
 	require 'helpers.php';
 
+	//Library
+	require 'library/Request.php';
+
 	//Llamar al controlador indicado
 
-if (empty($_GET['url']))
-{
-	$_GET['url'] = 'home';
-}
-controller($_GET['url']);
+	if (empty($_GET['url']))
+	{
+		$url = "";
+	}
+	else
+	{
+		$url = $_GET['url'];
+	}
 
-//index.php
+	$request = new Request($url);
+	var_dump($request->getUrl());

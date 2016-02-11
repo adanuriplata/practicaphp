@@ -1,4 +1,14 @@
 <?php 
+/**
+* 
+*/
+class HomeController {
+	
+	public function indexAction()
+	{
+		
+	}
+}
 
 
 	$lenguaje = "Programacion";
